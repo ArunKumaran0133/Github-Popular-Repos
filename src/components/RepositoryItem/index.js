@@ -7,7 +7,7 @@ const RepositoryItem = props => {
   return (
     <li className="item-container">
       <img src={avatarUrl} alt={name} className="avatar-url" />
-      <p className="name">{name}</p>
+      <h1 className="name">{name}</h1>
       <div className="text-avatar-container">
         <img
           src="https://assets.ccbp.in/frontend/react-js/stars-count-img.png"
